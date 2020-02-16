@@ -9,3 +9,6 @@ int main() {
   else
     cout << b << endl;
 }
+
+// つまりmax(int a, int b)の実装
+// 本問では a == b がないので等しい場合は考えてない
