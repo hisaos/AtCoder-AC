@@ -45,3 +45,9 @@ int gcd(int a, int b)
   
   return gcd;
 }
+
+// a, bの最小公倍数をL, 最大公約数をGとしたとき、LG=ab -> L=ab/G
+int lcm(int a, int b)
+{
+  return a * b / gcd(a, b);
+}
